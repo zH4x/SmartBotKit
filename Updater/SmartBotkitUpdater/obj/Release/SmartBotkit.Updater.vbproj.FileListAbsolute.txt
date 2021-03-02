@@ -1,0 +1,4 @@
+C:\Users\Zanzo\Documents\Source Code\SmartBotKit-v3.9\Updater\SmartBotkitUpdater\obj\Release\SmartBotkit.Updater.vbprojAssemblyReference.cache
+C:\Users\Zanzo\Documents\Source Code\SmartBotKit-v3.9\Updater\SmartBotkitUpdater\obj\Release\Resources.resources
+C:\Users\Zanzo\Documents\Source Code\SmartBotKit-v3.9\Updater\SmartBotkitUpdater\obj\Release\SmartBotkit.Updater.vbproj.GenerateResource.cache
+C:\Users\Zanzo\Documents\Source Code\SmartBotKit-v3.9\Updater\SmartBotkitUpdater\obj\Release\SmartBotkit.Updater.vbproj.CoreCompileInputs.cache
