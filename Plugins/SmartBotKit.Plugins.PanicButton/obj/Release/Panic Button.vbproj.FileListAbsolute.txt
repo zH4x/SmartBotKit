@@ -1,0 +1,8 @@
+C:\Users\Zanzo\Documents\Source Code\SmartBotKit-v3.9\Bin\Release\Plugins\PanicButton.dll
+C:\Users\Zanzo\Documents\Source Code\SmartBotKit-v3.9\Bin\Release\Plugins\PanicButton.xml
+C:\Users\Zanzo\Documents\Source Code\SmartBotKit-v3.9\Plugins\SmartBotKit.Plugins.PanicButton\obj\Release\Panic Button.vbprojAssemblyReference.cache
+C:\Users\Zanzo\Documents\Source Code\SmartBotKit-v3.9\Plugins\SmartBotKit.Plugins.PanicButton\obj\Release\SmartBotKit.Plugins.Resources.resources
+C:\Users\Zanzo\Documents\Source Code\SmartBotKit-v3.9\Plugins\SmartBotKit.Plugins.PanicButton\obj\Release\Panic Button.vbproj.GenerateResource.cache
+C:\Users\Zanzo\Documents\Source Code\SmartBotKit-v3.9\Plugins\SmartBotKit.Plugins.PanicButton\obj\Release\Panic Button.vbproj.CoreCompileInputs.cache
+C:\Users\Zanzo\Documents\Source Code\SmartBotKit-v3.9\Plugins\SmartBotKit.Plugins.PanicButton\obj\Release\PanicButton.dll
+C:\Users\Zanzo\Documents\Source Code\SmartBotKit-v3.9\Plugins\SmartBotKit.Plugins.PanicButton\obj\Release\PanicButton.xml
