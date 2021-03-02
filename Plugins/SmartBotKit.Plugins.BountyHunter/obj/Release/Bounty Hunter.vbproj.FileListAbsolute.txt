@@ -1,0 +1,7 @@
+C:\Users\Zanzo\Documents\Source Code\SmartBotKit-v3.9\Bin\Release\Plugins\BountyHunter.dll
+C:\Users\Zanzo\Documents\Source Code\SmartBotKit-v3.9\Bin\Release\Plugins\BountyHunter.xml
+C:\Users\Zanzo\Documents\Source Code\SmartBotKit-v3.9\Plugins\SmartBotKit.Plugins.BountyHunter\obj\Release\SmartBotKit.Plugins.Resources.resources
+C:\Users\Zanzo\Documents\Source Code\SmartBotKit-v3.9\Plugins\SmartBotKit.Plugins.BountyHunter\obj\Release\Bounty Hunter.vbproj.GenerateResource.cache
+C:\Users\Zanzo\Documents\Source Code\SmartBotKit-v3.9\Plugins\SmartBotKit.Plugins.BountyHunter\obj\Release\Bounty Hunter.vbproj.CoreCompileInputs.cache
+C:\Users\Zanzo\Documents\Source Code\SmartBotKit-v3.9\Plugins\SmartBotKit.Plugins.BountyHunter\obj\Release\BountyHunter.dll
+C:\Users\Zanzo\Documents\Source Code\SmartBotKit-v3.9\Plugins\SmartBotKit.Plugins.BountyHunter\obj\Release\BountyHunter.xml
