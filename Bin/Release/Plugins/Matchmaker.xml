@@ -1,0 +1,345 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+Matchmaker
+</name>
+</assembly>
+<members>
+<member name="T:SmartBotKit.Plugins.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:SmartBotKit.Plugins.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:SmartBotKit.Plugins.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="T:SmartBotKit.Plugins.Matchmaker.DeckSource">
+ ----------------------------------------------------------------------------------------------------
+ <summary>
+ Provides the collection of values represented by a ComboBox for the <see cref="P:SmartBotKit.Plugins.Matchmaker.MatchmakerPluginData.Deck"/> property.
+ </summary>
+ ----------------------------------------------------------------------------------------------------
+ <seealso cref="T:Xceed.Wpf.Toolkit.PropertyGrid.Attributes.IItemsSource"/>
+ ----------------------------------------------------------------------------------------------------
+</member>
+<member name="M:SmartBotKit.Plugins.Matchmaker.DeckSource.#ctor">
+ ----------------------------------------------------------------------------------------------------
+ <summary>
+ Initializes a new instance of the <see cref="T:SmartBotKit.Plugins.Matchmaker.DeckSource"/> class.
+ </summary>
+ ----------------------------------------------------------------------------------------------------
+</member>
+<member name="M:SmartBotKit.Plugins.Matchmaker.DeckSource.GetValues">
+ ----------------------------------------------------------------------------------------------------
+ <summary>
+ Gets the collection of values.
+ </summary>
+ ----------------------------------------------------------------------------------------------------
+ <returns>
+ The resulting <see cref="T:Xceed.Wpf.Toolkit.PropertyGrid.Attributes.ItemCollection"/>.
+ </returns>
+ ----------------------------------------------------------------------------------------------------
+</member>
+<member name="T:SmartBotKit.Plugins.Matchmaker.ModeSource">
+ ----------------------------------------------------------------------------------------------------
+ <summary>
+ Provides the collection of values represented by a ComboBox for the <see cref="P:SmartBotKit.Plugins.Matchmaker.MatchmakerPluginData.Mode"/> property.
+ </summary>
+ ----------------------------------------------------------------------------------------------------
+ <seealso cref="T:Xceed.Wpf.Toolkit.PropertyGrid.Attributes.IItemsSource"/>
+ ----------------------------------------------------------------------------------------------------
+</member>
+<member name="M:SmartBotKit.Plugins.Matchmaker.ModeSource.#ctor">
+ ----------------------------------------------------------------------------------------------------
+ <summary>
+ Initializes a new instance of the <see cref="T:SmartBotKit.Plugins.Matchmaker.ModeSource"/> class.
+ </summary>
+ ----------------------------------------------------------------------------------------------------
+</member>
+<member name="M:SmartBotKit.Plugins.Matchmaker.ModeSource.GetValues">
+ ----------------------------------------------------------------------------------------------------
+ <summary>
+ Gets the collection of values.
+ </summary>
+ ----------------------------------------------------------------------------------------------------
+ <returns>
+ The resulting <see cref="T:Xceed.Wpf.Toolkit.PropertyGrid.Attributes.ItemCollection"/>.
+ </returns>
+ ----------------------------------------------------------------------------------------------------
+</member>
+<member name="T:SmartBotKit.Plugins.Matchmaker.MatchmakerPluginData">
+ ----------------------------------------------------------------------------------------------------
+ <summary>
+ Plugin data for <see cref="T:SmartBotKit.Plugins.Matchmaker.MatchmakerPlugin"/> plugin class.
+ </summary>
+ ----------------------------------------------------------------------------------------------------
+ <seealso cref="T:SmartBot.Plugins.PluginDataContainer"/>
+ ----------------------------------------------------------------------------------------------------
+</member>
+<member name="P:SmartBotKit.Plugins.Matchmaker.MatchmakerPluginData.AssemblyInfo">
+ ----------------------------------------------------------------------------------------------------
+ <summary>
+ Gets the <see cref="T:Microsoft.VisualBasic.ApplicationServices.AssemblyInfo"/> for this assembly.
+ </summary>
+ ----------------------------------------------------------------------------------------------------
+</member>
+<member name="P:SmartBotKit.Plugins.Matchmaker.MatchmakerPluginData.AssemblyName">
+ ----------------------------------------------------------------------------------------------------
+ <summary>
+ Gets the assembly path.
+ </summary>
+ ----------------------------------------------------------------------------------------------------
+</member>
+<member name="P:SmartBotKit.Plugins.Matchmaker.MatchmakerPluginData.Path">
+ ----------------------------------------------------------------------------------------------------
+ <summary>
+ Gets the assembly path.
+ </summary>
+ ----------------------------------------------------------------------------------------------------
+</member>
+<member name="P:SmartBotKit.Plugins.Matchmaker.MatchmakerPluginData.Title">
+ ----------------------------------------------------------------------------------------------------
+ <summary>
+ Gets the plugin title.
+ </summary>
+ ----------------------------------------------------------------------------------------------------
+</member>
+<member name="P:SmartBotKit.Plugins.Matchmaker.MatchmakerPluginData.Name">
+ ----------------------------------------------------------------------------------------------------
+ <summary>
+ Gets the plugin name.
+ </summary>
+ ----------------------------------------------------------------------------------------------------
+</member>
+<member name="P:SmartBotKit.Plugins.Matchmaker.MatchmakerPluginData.Author">
+ ----------------------------------------------------------------------------------------------------
+ <summary>
+ Gets the plugin author.
+ </summary>
+ ----------------------------------------------------------------------------------------------------
+</member>
+<member name="P:SmartBotKit.Plugins.Matchmaker.MatchmakerPluginData.Description">
+ ----------------------------------------------------------------------------------------------------
+ <summary>
+ Gets the plugin description.
+ </summary>
+ ----------------------------------------------------------------------------------------------------
+</member>
+<member name="P:SmartBotKit.Plugins.Matchmaker.MatchmakerPluginData.Version">
+ ----------------------------------------------------------------------------------------------------
+ <summary>
+ Gets a value that determine whether the plugin should delete log files.
+ </summary>
+ ----------------------------------------------------------------------------------------------------
+</member>
+<member name="P:SmartBotKit.Plugins.Matchmaker.MatchmakerPluginData.Mode">
+ ----------------------------------------------------------------------------------------------------
+ <summary>
+ Gets or sets the bot mode for questing.
+ </summary>
+ ----------------------------------------------------------------------------------------------------
+</member>
+<member name="P:SmartBotKit.Plugins.Matchmaker.MatchmakerPluginData.Deck">
+ ----------------------------------------------------------------------------------------------------
+ <summary>
+ Gets or sets the deck for playing.
+ </summary>
+ ----------------------------------------------------------------------------------------------------
+</member>
+<member name="P:SmartBotKit.Plugins.Matchmaker.MatchmakerPluginData.AllowDemonHunter">
+ ----------------------------------------------------------------------------------------------------
+ <summary>
+ Gets or sets a value indicating whether to allow matchmaking with DemonHunter class.
+ </summary>
+ ----------------------------------------------------------------------------------------------------
+</member>
+<member name="P:SmartBotKit.Plugins.Matchmaker.MatchmakerPluginData.AllowDruid">
+ ----------------------------------------------------------------------------------------------------
+ <summary>
+ Gets or sets a value indicating whether to allow matchmaking with Druid class.
+ </summary>
+ ----------------------------------------------------------------------------------------------------
+</member>
+<member name="P:SmartBotKit.Plugins.Matchmaker.MatchmakerPluginData.AllowHunter">
+ ----------------------------------------------------------------------------------------------------
+ <summary>
+ Gets or sets a value indicating whether to allow matchmaking with Hunter class.
+ </summary>
+ ----------------------------------------------------------------------------------------------------
+</member>
+<member name="P:SmartBotKit.Plugins.Matchmaker.MatchmakerPluginData.AllowMage">
+ ----------------------------------------------------------------------------------------------------
+ <summary>
+ Gets or sets a value indicating whether to allow matchmaking with Mage class.
+ </summary>
+ ----------------------------------------------------------------------------------------------------
+</member>
+<member name="P:SmartBotKit.Plugins.Matchmaker.MatchmakerPluginData.AllowPaladin">
+ ----------------------------------------------------------------------------------------------------
+ <summary>
+ Gets or sets a value indicating whether to allow matchmaking with Paladin class.
+ </summary>
+ ----------------------------------------------------------------------------------------------------
+</member>
+<member name="P:SmartBotKit.Plugins.Matchmaker.MatchmakerPluginData.AllowPriest">
+ ----------------------------------------------------------------------------------------------------
+ <summary>
+ Gets or sets a value indicating whether to allow matchmaking with Priest class.
+ </summary>
+ ----------------------------------------------------------------------------------------------------
+</member>
+<member name="P:SmartBotKit.Plugins.Matchmaker.MatchmakerPluginData.AllowRogue">
+ ----------------------------------------------------------------------------------------------------
+ <summary>
+ Gets or sets a value indicating whether to allow matchmaking with Rogue class.
+ </summary>
+ ----------------------------------------------------------------------------------------------------
+</member>
+<member name="P:SmartBotKit.Plugins.Matchmaker.MatchmakerPluginData.AllowShaman">
+ ----------------------------------------------------------------------------------------------------
+ <summary>
+ Gets or sets a value indicating whether to allow matchmaking with Shaman class.
+ </summary>
+ ----------------------------------------------------------------------------------------------------
+</member>
+<member name="P:SmartBotKit.Plugins.Matchmaker.MatchmakerPluginData.AllowWarlock">
+ ----------------------------------------------------------------------------------------------------
+ <summary>
+ Gets or sets a value indicating whether to allow matchmaking with Warlock class.
+ </summary>
+ ----------------------------------------------------------------------------------------------------
+</member>
+<member name="P:SmartBotKit.Plugins.Matchmaker.MatchmakerPluginData.AllowWarrior">
+ ----------------------------------------------------------------------------------------------------
+ <summary>
+ Gets or sets a value indicating whether to allow matchmaking with Warrior class.
+ </summary>
+ ----------------------------------------------------------------------------------------------------
+</member>
+<member name="P:SmartBotKit.Plugins.Matchmaker.MatchmakerPluginData.PlaySoundFile">
+ ----------------------------------------------------------------------------------------------------
+ <summary>
+ Gets or sets a value that determine whether to play a wave sound file when a match is found.
+ </summary>
+ ----------------------------------------------------------------------------------------------------
+</member>
+<member name="P:SmartBotKit.Plugins.Matchmaker.MatchmakerPluginData.ActivateWindow">
+ ----------------------------------------------------------------------------------------------------
+ <summary>
+ Gets or sets a value that determine whether to activate Hearthstone window when a match is found.
+ </summary>
+ ----------------------------------------------------------------------------------------------------
+</member>
+<member name="M:SmartBotKit.Plugins.Matchmaker.MatchmakerPluginData.#ctor">
+ ----------------------------------------------------------------------------------------------------
+ <summary>
+ Initializes a new instance of the <see cref="T:SmartBotKit.Plugins.Matchmaker.MatchmakerPluginData"/> class.
+ </summary>
+ ----------------------------------------------------------------------------------------------------
+</member>
+<member name="T:SmartBotKit.Plugins.Matchmaker.MatchmakerPlugin">
+ ----------------------------------------------------------------------------------------------------
+ <summary>
+ A plugin that helps you find your favorite opponent match.
+ </summary>
+ ----------------------------------------------------------------------------------------------------
+ <seealso cref="T:SmartBot.Plugins.Plugin"/>
+ ----------------------------------------------------------------------------------------------------
+</member>
+<member name="P:SmartBotKit.Plugins.Matchmaker.MatchmakerPlugin.DataContainer">
+ ----------------------------------------------------------------------------------------------------
+ <summary>
+ Gets the plugin's data container.
+ </summary>
+ ----------------------------------------------------------------------------------------------------
+ <value>
+ The plugin's data container.
+ </value>
+ ----------------------------------------------------------------------------------------------------
+</member>
+<member name="F:SmartBotKit.Plugins.Matchmaker.MatchmakerPlugin.lastEnabled">
+ ----------------------------------------------------------------------------------------------------
+ <summary>
+ Keeps track of the last <see cref="P:SmartBot.Plugins.PluginDataContainer.Enabled"/> value.
+ </summary>
+ ----------------------------------------------------------------------------------------------------
+</member>
+<member name="M:SmartBotKit.Plugins.Matchmaker.MatchmakerPlugin.#ctor">
+ ----------------------------------------------------------------------------------------------------
+ <summary>
+ Initializes a new instance of the <see cref="T:SmartBotKit.Plugins.Matchmaker.MatchmakerPlugin"/> class.
+ </summary>
+ ----------------------------------------------------------------------------------------------------
+</member>
+<member name="M:SmartBotKit.Plugins.Matchmaker.MatchmakerPlugin.OnPluginCreated">
+ ----------------------------------------------------------------------------------------------------
+ <summary>
+ Called when this <see cref="T:SmartBotKit.Plugins.Matchmaker.MatchmakerPlugin"/> is created by the SmartBot plugin manager.
+ </summary>
+ ----------------------------------------------------------------------------------------------------
+</member>
+<member name="M:SmartBotKit.Plugins.Matchmaker.MatchmakerPlugin.OnDataContainerUpdated">
+ ----------------------------------------------------------------------------------------------------
+ <summary>
+ Called when the properties of <see cref="T:SmartBotKit.Plugins.Matchmaker.MatchmakerPluginData"/> are updated.
+ </summary>
+ ----------------------------------------------------------------------------------------------------
+</member>
+<member name="M:SmartBotKit.Plugins.Matchmaker.MatchmakerPlugin.OnHandleMulligan(System.Collections.Generic.List{SmartBot.Plugins.API.Card.Cards},SmartBot.Plugins.API.Card.CClass,SmartBot.Plugins.API.Card.CClass)">
+ ----------------------------------------------------------------------------------------------------
+ <summary>
+ Called when the bot is about to handle mulligan (to decide which card to replace) before a game begins.
+ </summary>
+ ----------------------------------------------------------------------------------------------------
+ <param name="choices">
+ The mulligan choices.
+ </param>
+ 
+ <param name="opponentClass">
+ The opponent class.
+ </param>
+ 
+ <param name="ownClass">
+ Our hero class.
+ </param>
+ ----------------------------------------------------------------------------------------------------
+</member>
+<member name="M:SmartBotKit.Plugins.Matchmaker.MatchmakerPlugin.OnStarted">
+ ----------------------------------------------------------------------------------------------------
+ <summary>
+ Called when the bot is started.
+ </summary>
+ ----------------------------------------------------------------------------------------------------
+</member>
+<member name="M:SmartBotKit.Plugins.Matchmaker.MatchmakerPlugin.Dispose">
+ ----------------------------------------------------------------------------------------------------
+ <summary>
+ Releases all the Global.System.Resources.used by this <see cref="T:SmartBotKit.Plugins.Matchmaker.MatchmakerPlugin"/> instance.
+ </summary>
+ ----------------------------------------------------------------------------------------------------
+</member>
+<member name="M:SmartBotKit.Plugins.Matchmaker.MatchmakerPlugin.RunPluginComatibilityCheck">
+ ----------------------------------------------------------------------------------------------------
+ <summary>
+ Runs a compatibility check that analyzes the current loaded plugins.
+ </summary>
+ ----------------------------------------------------------------------------------------------------
+</member>
+<member name="M:SmartBotKit.Plugins.Matchmaker.MatchmakerPlugin.GetAllowedClasses">
+ ----------------------------------------------------------------------------------------------------
+ <summary>
+ Gets the allowed classes to match with.
+ </summary>
+ ----------------------------------------------------------------------------------------------------
+</member>
+</members>
+</doc>

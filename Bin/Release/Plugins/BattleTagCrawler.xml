@@ -1,0 +1,238 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+BattleTagCrawler
+</name>
+</assembly>
+<members>
+<member name="T:SmartBotKit.Plugins.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:SmartBotKit.Plugins.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:SmartBotKit.Plugins.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="T:SmartBotKit.Plugins.BattleTagCrawler.BattleTagCrawlerPluginData">
+ ----------------------------------------------------------------------------------------------------
+ <summary>
+ Plugin data for <see cref="T:SmartBotKit.Plugins.BattleTagCrawler.BattleTagCrawlerPlugin"/> plugin class.
+ </summary>
+ ----------------------------------------------------------------------------------------------------
+ <seealso cref="T:SmartBot.Plugins.PluginDataContainer"/>
+ ----------------------------------------------------------------------------------------------------
+</member>
+<member name="P:SmartBotKit.Plugins.BattleTagCrawler.BattleTagCrawlerPluginData.AssemblyInfo">
+ ----------------------------------------------------------------------------------------------------
+ <summary>
+ Gets the <see cref="T:Microsoft.VisualBasic.ApplicationServices.AssemblyInfo"/> for this assembly.
+ </summary>
+ ----------------------------------------------------------------------------------------------------
+</member>
+<member name="P:SmartBotKit.Plugins.BattleTagCrawler.BattleTagCrawlerPluginData.AssemblyName">
+ ----------------------------------------------------------------------------------------------------
+ <summary>
+ Gets the assembly path.
+ </summary>
+ ----------------------------------------------------------------------------------------------------
+</member>
+<member name="P:SmartBotKit.Plugins.BattleTagCrawler.BattleTagCrawlerPluginData.Path">
+ ----------------------------------------------------------------------------------------------------
+ <summary>
+ Gets the assembly path.
+ </summary>
+ ----------------------------------------------------------------------------------------------------
+</member>
+<member name="P:SmartBotKit.Plugins.BattleTagCrawler.BattleTagCrawlerPluginData.Title">
+ ----------------------------------------------------------------------------------------------------
+ <summary>
+ Gets the plugin title.
+ </summary>
+ ----------------------------------------------------------------------------------------------------
+</member>
+<member name="P:SmartBotKit.Plugins.BattleTagCrawler.BattleTagCrawlerPluginData.Name">
+ ----------------------------------------------------------------------------------------------------
+ <summary>
+ Gets the plugin name.
+ </summary>
+ ----------------------------------------------------------------------------------------------------
+</member>
+<member name="P:SmartBotKit.Plugins.BattleTagCrawler.BattleTagCrawlerPluginData.Author">
+ ----------------------------------------------------------------------------------------------------
+ <summary>
+ Gets the plugin author.
+ </summary>
+ ----------------------------------------------------------------------------------------------------
+</member>
+<member name="P:SmartBotKit.Plugins.BattleTagCrawler.BattleTagCrawlerPluginData.Description">
+ ----------------------------------------------------------------------------------------------------
+ <summary>
+ Gets the plugin description.
+ </summary>
+ ----------------------------------------------------------------------------------------------------
+</member>
+<member name="P:SmartBotKit.Plugins.BattleTagCrawler.BattleTagCrawlerPluginData.Version">
+ ----------------------------------------------------------------------------------------------------
+ <summary>
+ Gets a value that determine whether the plugin should delete log files.
+ </summary>
+ ----------------------------------------------------------------------------------------------------
+</member>
+<member name="P:SmartBotKit.Plugins.BattleTagCrawler.BattleTagCrawlerPluginData.AddNewEntriesAtBeginningOfFile">
+ ----------------------------------------------------------------------------------------------------
+ <summary>
+ Gets a value that determine whether or not to log duplicated BattleTag ids.
+ </summary>
+ ----------------------------------------------------------------------------------------------------
+</member>
+<member name="P:SmartBotKit.Plugins.BattleTagCrawler.BattleTagCrawlerPluginData.LogDuplicates">
+ ----------------------------------------------------------------------------------------------------
+ <summary>
+ Gets a value that determine whether or not to log duplicated BattleTag ids.
+ </summary>
+ ----------------------------------------------------------------------------------------------------
+</member>
+<member name="P:SmartBotKit.Plugins.BattleTagCrawler.BattleTagCrawlerPluginData.UseSingleLogFile">
+ ----------------------------------------------------------------------------------------------------
+ <summary>
+ Gets a value that determine whether or not to write to a single log file instead of creating multiple logs.
+ </summary>
+ ----------------------------------------------------------------------------------------------------
+</member>
+<member name="P:SmartBotKit.Plugins.BattleTagCrawler.BattleTagCrawlerPluginData.HourStart">
+ ----------------------------------------------------------------------------------------------------
+ <summary>
+ Gets a value that determine the hour (in 24 hrs format) on which the plugin will start logging battle-tags.
+ </summary>
+ ----------------------------------------------------------------------------------------------------
+</member>
+<member name="F:SmartBotKit.Plugins.BattleTagCrawler.BattleTagCrawlerPluginData.hourStart_">
+ <summary>
+ ( Backing Field )
+ <para></para>
+ The hour (in 24 hrs format) on which the plugin will start logging battle-tags.
+ </summary>
+</member>
+<member name="P:SmartBotKit.Plugins.BattleTagCrawler.BattleTagCrawlerPluginData.HourEnd">
+ ----------------------------------------------------------------------------------------------------
+ <summary>
+ Gets a value that determine the hour (in 24 hrs format) on which the plugin will stop from logging battle-tags.
+ </summary>
+ ----------------------------------------------------------------------------------------------------
+</member>
+<member name="F:SmartBotKit.Plugins.BattleTagCrawler.BattleTagCrawlerPluginData.hourEnd_">
+ <summary>
+ ( Backing Field )
+ <para></para>
+ The hour (in 24 hrs format) on which the plugin will stop from logging battle-tags.
+ </summary>
+</member>
+<member name="P:SmartBotKit.Plugins.BattleTagCrawler.BattleTagCrawlerPluginData.CrawlRankedStandardGames">
+ ----------------------------------------------------------------------------------------------------
+ <summary>
+ Gets a value that determine whether or not to crawl BattleTag ids from players in ranked standard games.
+ </summary>
+ ----------------------------------------------------------------------------------------------------
+</member>
+<member name="P:SmartBotKit.Plugins.BattleTagCrawler.BattleTagCrawlerPluginData.CrawlUnrankedStandardGames">
+ ----------------------------------------------------------------------------------------------------
+ <summary>
+ Gets a value that determine whether or not to crawl BattleTag ids from players in unranked standard games.
+ </summary>
+ ----------------------------------------------------------------------------------------------------
+</member>
+<member name="P:SmartBotKit.Plugins.BattleTagCrawler.BattleTagCrawlerPluginData.CrawlRankedWildGames">
+ ----------------------------------------------------------------------------------------------------
+ <summary>
+ Gets a value that determine whether or not to crawl BattleTag ids from players in ranked wild games.
+ </summary>
+ ----------------------------------------------------------------------------------------------------
+</member>
+<member name="P:SmartBotKit.Plugins.BattleTagCrawler.BattleTagCrawlerPluginData.CrawlUnrankedWildGames">
+ ----------------------------------------------------------------------------------------------------
+ <summary>
+ Gets a value that determine whether or not to crawl BattleTag ids from players in unranked wild games.
+ </summary>
+ ----------------------------------------------------------------------------------------------------
+</member>
+<member name="M:SmartBotKit.Plugins.BattleTagCrawler.BattleTagCrawlerPluginData.#ctor">
+ ----------------------------------------------------------------------------------------------------
+ <summary>
+ Initializes a new instance of the <see cref="T:SmartBotKit.Plugins.BattleTagCrawler.BattleTagCrawlerPluginData"/> class.
+ </summary>
+ ----------------------------------------------------------------------------------------------------
+</member>
+<member name="T:SmartBotKit.Plugins.BattleTagCrawler.BattleTagCrawlerPlugin">
+ ----------------------------------------------------------------------------------------------------
+ <summary>
+ A plugin that collects BattleTag ids from opponents into a csv file.
+ </summary>
+ <example></example>
+ ----------------------------------------------------------------------------------------------------
+ <seealso cref="T:SmartBot.Plugins.Plugin"/>
+ ----------------------------------------------------------------------------------------------------
+</member>
+<member name="P:SmartBotKit.Plugins.BattleTagCrawler.BattleTagCrawlerPlugin.DataContainer">
+ ----------------------------------------------------------------------------------------------------
+ <summary>
+ Gets the plugin's data container.
+ </summary>
+ ----------------------------------------------------------------------------------------------------
+ <value>
+ The plugin's data container.
+ </value>
+ ----------------------------------------------------------------------------------------------------
+</member>
+<member name="F:SmartBotKit.Plugins.BattleTagCrawler.BattleTagCrawlerPlugin.lastEnabled">
+ ----------------------------------------------------------------------------------------------------
+ <summary>
+ Keeps track of the last <see cref="P:SmartBot.Plugins.PluginDataContainer.Enabled"/> value.
+ </summary>
+ ----------------------------------------------------------------------------------------------------
+</member>
+<member name="M:SmartBotKit.Plugins.BattleTagCrawler.BattleTagCrawlerPlugin.#ctor">
+ ----------------------------------------------------------------------------------------------------
+ <summary>
+ Initializes a new instance of the <see cref="T:SmartBotKit.Plugins.BattleTagCrawler.BattleTagCrawlerPlugin"/> class.
+ </summary>
+ ----------------------------------------------------------------------------------------------------
+</member>
+<member name="M:SmartBotKit.Plugins.BattleTagCrawler.BattleTagCrawlerPlugin.OnPluginCreated">
+ ----------------------------------------------------------------------------------------------------
+ <summary>
+ Called when this <see cref="T:SmartBotKit.Plugins.BattleTagCrawler.BattleTagCrawlerPlugin"/> is created by the SmartBot plugin manager.
+ </summary>
+ ----------------------------------------------------------------------------------------------------
+</member>
+<member name="M:SmartBotKit.Plugins.BattleTagCrawler.BattleTagCrawlerPlugin.OnDataContainerUpdated">
+ ----------------------------------------------------------------------------------------------------
+ <summary>
+ Called when the properties of <see cref="T:SmartBotKit.Plugins.BattleTagCrawler.BattleTagCrawlerPluginData"/> are updated.
+ </summary>
+ ----------------------------------------------------------------------------------------------------
+</member>
+<member name="M:SmartBotKit.Plugins.BattleTagCrawler.BattleTagCrawlerPlugin.OnGameBegin">
+ ----------------------------------------------------------------------------------------------------
+ <summary>
+ Called when a game begins.
+ </summary>
+ ----------------------------------------------------------------------------------------------------
+</member>
+<member name="M:SmartBotKit.Plugins.BattleTagCrawler.BattleTagCrawlerPlugin.Dispose">
+ ----------------------------------------------------------------------------------------------------
+ <summary>
+ Releases all the Global.System.Resources.used by this <see cref="T:SmartBotKit.Plugins.BattleTagCrawler.BattleTagCrawlerPlugin"/> instance.
+ </summary>
+ ----------------------------------------------------------------------------------------------------
+</member>
+</members>
+</doc>
