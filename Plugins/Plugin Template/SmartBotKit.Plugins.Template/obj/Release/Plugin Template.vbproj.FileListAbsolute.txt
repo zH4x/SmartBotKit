@@ -1,0 +1,8 @@
+C:\Users\Zanzo\Documents\Source Code\SmartBotKit-v3.9\Plugins\Bin\Release\Plugins\PluginTemplate.dll
+C:\Users\Zanzo\Documents\Source Code\SmartBotKit-v3.9\Plugins\Bin\Release\Plugins\PluginTemplate.xml
+C:\Users\Zanzo\Documents\Source Code\SmartBotKit-v3.9\Plugins\Plugin Template\SmartBotKit.Plugins.Template\obj\Release\Plugin Template.vbprojAssemblyReference.cache
+C:\Users\Zanzo\Documents\Source Code\SmartBotKit-v3.9\Plugins\Plugin Template\SmartBotKit.Plugins.Template\obj\Release\SmartBotKit.Plugins.Resources.resources
+C:\Users\Zanzo\Documents\Source Code\SmartBotKit-v3.9\Plugins\Plugin Template\SmartBotKit.Plugins.Template\obj\Release\Plugin Template.vbproj.GenerateResource.cache
+C:\Users\Zanzo\Documents\Source Code\SmartBotKit-v3.9\Plugins\Plugin Template\SmartBotKit.Plugins.Template\obj\Release\Plugin Template.vbproj.CoreCompileInputs.cache
+C:\Users\Zanzo\Documents\Source Code\SmartBotKit-v3.9\Plugins\Plugin Template\SmartBotKit.Plugins.Template\obj\Release\PluginTemplate.dll
+C:\Users\Zanzo\Documents\Source Code\SmartBotKit-v3.9\Plugins\Plugin Template\SmartBotKit.Plugins.Template\obj\Release\PluginTemplate.xml

@@ -1,0 +1,436 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+AdvancedAutoConcede
+</name>
+</assembly>
+<members>
+<member name="T:SmartBotKit.Plugins.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:SmartBotKit.Plugins.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:SmartBotKit.Plugins.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="T:SmartBotKit.Plugins.AdvancedAutoConcede.AdvancedAutoConcedePluginData">
+ ----------------------------------------------------------------------------------------------------
+ <summary>
+ Plugin data for <see cref="T:SmartBotKit.Plugins.AdvancedAutoConcede.AdvancedAutoConcedePlugin"/> plugin class.
+ </summary>
+ ----------------------------------------------------------------------------------------------------
+ <seealso cref="T:SmartBot.Plugins.PluginDataContainer"/>
+ ----------------------------------------------------------------------------------------------------
+</member>
+<member name="P:SmartBotKit.Plugins.AdvancedAutoConcede.AdvancedAutoConcedePluginData.AssemblyInfo">
+ ----------------------------------------------------------------------------------------------------
+ <summary>
+ Gets the <see cref="T:Microsoft.VisualBasic.ApplicationServices.AssemblyInfo"/> for this assembly.
+ </summary>
+ ----------------------------------------------------------------------------------------------------
+</member>
+<member name="P:SmartBotKit.Plugins.AdvancedAutoConcede.AdvancedAutoConcedePluginData.AssemblyName">
+ ----------------------------------------------------------------------------------------------------
+ <summary>
+ Gets the assembly path.
+ </summary>
+ ----------------------------------------------------------------------------------------------------
+</member>
+<member name="P:SmartBotKit.Plugins.AdvancedAutoConcede.AdvancedAutoConcedePluginData.Path">
+ ----------------------------------------------------------------------------------------------------
+ <summary>
+ Gets the assembly path.
+ </summary>
+ ----------------------------------------------------------------------------------------------------
+</member>
+<member name="P:SmartBotKit.Plugins.AdvancedAutoConcede.AdvancedAutoConcedePluginData.Title">
+ ----------------------------------------------------------------------------------------------------
+ <summary>
+ Gets the plugin title.
+ </summary>
+ ----------------------------------------------------------------------------------------------------
+</member>
+<member name="P:SmartBotKit.Plugins.AdvancedAutoConcede.AdvancedAutoConcedePluginData.Name">
+ ----------------------------------------------------------------------------------------------------
+ <summary>
+ Gets the plugin name.
+ </summary>
+ ----------------------------------------------------------------------------------------------------
+</member>
+<member name="P:SmartBotKit.Plugins.AdvancedAutoConcede.AdvancedAutoConcedePluginData.Author">
+ ----------------------------------------------------------------------------------------------------
+ <summary>
+ Gets the plugin author.
+ </summary>
+ ----------------------------------------------------------------------------------------------------
+</member>
+<member name="P:SmartBotKit.Plugins.AdvancedAutoConcede.AdvancedAutoConcedePluginData.Description">
+ ----------------------------------------------------------------------------------------------------
+ <summary>
+ Gets the plugin description.
+ </summary>
+ ----------------------------------------------------------------------------------------------------
+</member>
+<member name="P:SmartBotKit.Plugins.AdvancedAutoConcede.AdvancedAutoConcedePluginData.Version">
+ ----------------------------------------------------------------------------------------------------
+ <summary>
+ Gets a value that determine whether the plugin should delete log files.
+ </summary>
+ ----------------------------------------------------------------------------------------------------
+</member>
+<member name="P:SmartBotKit.Plugins.AdvancedAutoConcede.AdvancedAutoConcedePluginData.CurrentConcedeCount">
+ ----------------------------------------------------------------------------------------------------
+ <summary>
+ Gets the current concede count.
+ </summary>
+ ----------------------------------------------------------------------------------------------------
+</member>
+<member name="P:SmartBotKit.Plugins.AdvancedAutoConcede.AdvancedAutoConcedePluginData.CurrentRankedWinsCount">
+ ----------------------------------------------------------------------------------------------------
+ <summary>
+ Gets the current ranked wins count.
+ </summary>
+ ----------------------------------------------------------------------------------------------------
+</member>
+<member name="P:SmartBotKit.Plugins.AdvancedAutoConcede.AdvancedAutoConcedePluginData.CurrentUnrankedWinsCount">
+ ----------------------------------------------------------------------------------------------------
+ <summary>
+ Gets the current unranked wins count.
+ </summary>
+ ----------------------------------------------------------------------------------------------------
+</member>
+<member name="P:SmartBotKit.Plugins.AdvancedAutoConcede.AdvancedAutoConcedePluginData.ResetWinsCountAfterLose">
+ ----------------------------------------------------------------------------------------------------
+ <summary>
+ Gets or sets a value that determine whether the current wins count 
+ ( of <see cref="P:SmartBotKit.Plugins.AdvancedAutoConcede.AdvancedAutoConcedePluginData.MaxRankedWins"/> or 
+ <see cref="P:SmartBotKit.Plugins.AdvancedAutoConcede.AdvancedAutoConcedePluginData.MaxUnrankedWins"/> 
+ depending on the current mode. ) will be reseted to zero after losing a match.
+ </summary>
+ ----------------------------------------------------------------------------------------------------
+</member>
+<member name="P:SmartBotKit.Plugins.AdvancedAutoConcede.AdvancedAutoConcedePluginData.ResetWinsCountAfterBotStop">
+ ----------------------------------------------------------------------------------------------------
+ <summary>
+ Gets or sets a value that determine whether the current wins count 
+ ( of <see cref="P:SmartBotKit.Plugins.AdvancedAutoConcede.AdvancedAutoConcedePluginData.MaxRankedWins"/> and 
+ <see cref="P:SmartBotKit.Plugins.AdvancedAutoConcede.AdvancedAutoConcedePluginData.MaxUnrankedWins"/> ) 
+ will be reseted to zero after stopping the bot.
+ </summary>
+ ----------------------------------------------------------------------------------------------------
+</member>
+<member name="P:SmartBotKit.Plugins.AdvancedAutoConcede.AdvancedAutoConcedePluginData.AlwaysConcede">
+ ----------------------------------------------------------------------------------------------------
+ <summary>
+ Gets or sets a value that determine whether to always concede games ignoring all plugin rules.
+ <para></para>
+ If this value is <see langword="True"/>, a game will be always conceded. 
+ </summary>
+ ----------------------------------------------------------------------------------------------------
+</member>
+<member name="P:SmartBotKit.Plugins.AdvancedAutoConcede.AdvancedAutoConcedePluginData.ConcedeToBattletagsInFile">
+ ----------------------------------------------------------------------------------------------------
+ <summary>
+ Gets or sets a value that determine whether to concede game when matchmaking the specified battletag names.
+ <para></para>
+ ( One battletag per line. Unicode encoding. Case insensitive. Format: 'name#id' or 'name' ) 
+ </summary>
+ ----------------------------------------------------------------------------------------------------
+</member>
+<member name="P:SmartBotKit.Plugins.AdvancedAutoConcede.AdvancedAutoConcedePluginData.EnableRankedModeAutoConcede">
+ ----------------------------------------------------------------------------------------------------
+ <summary>
+ Gets or sets a value that determine whether auto-concede settings are enabled for ranked mode.
+ </summary>
+ ----------------------------------------------------------------------------------------------------
+</member>
+<member name="P:SmartBotKit.Plugins.AdvancedAutoConcede.AdvancedAutoConcedePluginData.MaxRankedWins">
+ ----------------------------------------------------------------------------------------------------
+ <summary>
+ Gets or sets a value that determine the required amount of wins in ranked mode to start conceding the next match.
+ </summary>
+ ----------------------------------------------------------------------------------------------------
+</member>
+<member name="F:SmartBotKit.Plugins.AdvancedAutoConcede.AdvancedAutoConcedePluginData.maxRankedWins_">
+ <summary>
+ ( Backing Field )
+ <para></para>
+ The required amount of wins in ranked mode to start conceding the next match.
+ </summary>
+</member>
+<member name="P:SmartBotKit.Plugins.AdvancedAutoConcede.AdvancedAutoConcedePluginData.MaxRankedConcedes">
+ ----------------------------------------------------------------------------------------------------
+ <summary>
+ Gets or sets a value that determine the concede count for ranked mode.
+ </summary>
+ ----------------------------------------------------------------------------------------------------
+</member>
+<member name="F:SmartBotKit.Plugins.AdvancedAutoConcede.AdvancedAutoConcedePluginData.maxRankedConcedes_">
+ <summary>
+ ( Backing Field )
+ <para></para>
+ The concede count for ranked mode.
+ </summary>
+</member>
+<member name="P:SmartBotKit.Plugins.AdvancedAutoConcede.AdvancedAutoConcedePluginData.MinRankStandard">
+ ----------------------------------------------------------------------------------------------------
+ <summary>
+ Gets or sets a value that determine the required rank to apply auto-concede settings for ranked mode.
+ </summary>
+ ----------------------------------------------------------------------------------------------------
+</member>
+<member name="F:SmartBotKit.Plugins.AdvancedAutoConcede.AdvancedAutoConcedePluginData.minRankStandard_">
+ <summary>
+ ( Backing Field )
+ <para></para>
+ The required rank to apply auto-concede settings for ranked mode.
+ </summary>
+</member>
+<member name="P:SmartBotKit.Plugins.AdvancedAutoConcede.AdvancedAutoConcedePluginData.MaxRankStandard">
+ ----------------------------------------------------------------------------------------------------
+ <summary>
+ Gets or sets a value that determine when to switch to unranked mode after reaching standard rank.
+ </summary>
+ ----------------------------------------------------------------------------------------------------
+</member>
+<member name="F:SmartBotKit.Plugins.AdvancedAutoConcede.AdvancedAutoConcedePluginData.maxRankStandard_">
+ <summary>
+ ( Backing Field )
+ <para></para>
+ A value that determine when to switch to unranked mode after reaching standard rank.
+ </summary>
+</member>
+<member name="P:SmartBotKit.Plugins.AdvancedAutoConcede.AdvancedAutoConcedePluginData.MinRankWild">
+ ----------------------------------------------------------------------------------------------------
+ <summary>
+ Gets or sets a value that determine the required rank to apply auto-concede settings for ranked mode.
+ </summary>
+ ----------------------------------------------------------------------------------------------------
+</member>
+<member name="F:SmartBotKit.Plugins.AdvancedAutoConcede.AdvancedAutoConcedePluginData.minRankWild_">
+ <summary>
+ ( Backing Field )
+ <para></para>
+ The required rank to apply auto-concede settings for ranked mode.
+ </summary>
+</member>
+<member name="P:SmartBotKit.Plugins.AdvancedAutoConcede.AdvancedAutoConcedePluginData.MaxRankWild">
+ ----------------------------------------------------------------------------------------------------
+ <summary>
+ Gets or sets a value that determine when to switch to unranked mode after reaching wild rank.
+ </summary>
+ ----------------------------------------------------------------------------------------------------
+</member>
+<member name="F:SmartBotKit.Plugins.AdvancedAutoConcede.AdvancedAutoConcedePluginData.maxRankWild_">
+ <summary>
+ ( Backing Field )
+ <para></para>
+ A value that determine when to switch to unranked mode after reaching wild rank.
+ </summary>
+</member>
+<member name="P:SmartBotKit.Plugins.AdvancedAutoConcede.AdvancedAutoConcedePluginData.EnableUnrankedModeAutoConcede">
+ ----------------------------------------------------------------------------------------------------
+ <summary>
+ Gets or sets a value that determine whether auto-concede settings are enabled for unranked mode.
+ </summary>
+ ----------------------------------------------------------------------------------------------------
+</member>
+<member name="P:SmartBotKit.Plugins.AdvancedAutoConcede.AdvancedAutoConcedePluginData.MaxUnrankedWins">
+ ----------------------------------------------------------------------------------------------------
+ <summary>
+ Gets or sets a value that determine the required amount of wins in unranked mode to start conceding the next match.
+ </summary>
+ ----------------------------------------------------------------------------------------------------
+</member>
+<member name="F:SmartBotKit.Plugins.AdvancedAutoConcede.AdvancedAutoConcedePluginData.maxUnrankedWins_">
+ <summary>
+ ( Backing Field )
+ <para></para>
+ The required amount of wins in unranked mode to start conceding the next match.
+ </summary>
+</member>
+<member name="P:SmartBotKit.Plugins.AdvancedAutoConcede.AdvancedAutoConcedePluginData.MaxUnrankedConcedes">
+ ----------------------------------------------------------------------------------------------------
+ <summary>
+ Gets or sets a value that determine the concede count for unranked mode.
+ </summary>
+ ----------------------------------------------------------------------------------------------------
+</member>
+<member name="F:SmartBotKit.Plugins.AdvancedAutoConcede.AdvancedAutoConcedePluginData.maxUnrankedConcedes_">
+ <summary>
+ ( Backing Field )
+ <para></para>
+ The concede count for unranked mode.
+ </summary>
+</member>
+<member name="M:SmartBotKit.Plugins.AdvancedAutoConcede.AdvancedAutoConcedePluginData.#ctor">
+ ----------------------------------------------------------------------------------------------------
+ <summary>
+ Initializes a new instance of the <see cref="T:SmartBotKit.Plugins.AdvancedAutoConcede.AdvancedAutoConcedePluginData"/> class.
+ </summary>
+ ----------------------------------------------------------------------------------------------------
+</member>
+<member name="M:SmartBotKit.Plugins.AdvancedAutoConcede.AdvancedAutoConcedePluginData.GetBattletags">
+ ----------------------------------------------------------------------------------------------------
+ <summary>
+ Gets the battletags from <see cref="P:SmartBotKit.Plugins.AdvancedAutoConcede.AdvancedAutoConcedePluginData.ConcedeToBattletagsInFile"/> as a list.
+ </summary>
+ ----------------------------------------------------------------------------------------------------
+</member>
+<member name="T:SmartBotKit.Plugins.AdvancedAutoConcede.AdvancedAutoConcedePlugin">
+ ----------------------------------------------------------------------------------------------------
+ <summary>
+ A plugin to build auto-concede rules. 
+ </summary>
+ ----------------------------------------------------------------------------------------------------
+ <seealso cref="T:SmartBot.Plugins.Plugin"/>
+ ----------------------------------------------------------------------------------------------------
+</member>
+<member name="P:SmartBotKit.Plugins.AdvancedAutoConcede.AdvancedAutoConcedePlugin.DataContainer">
+ ----------------------------------------------------------------------------------------------------
+ <summary>
+ Gets the plugin's data container.
+ </summary>
+ ----------------------------------------------------------------------------------------------------
+ <value>
+ The plugin's data container.
+ </value>
+ ----------------------------------------------------------------------------------------------------
+</member>
+<member name="F:SmartBotKit.Plugins.AdvancedAutoConcede.AdvancedAutoConcedePlugin.lastAlwaysConcede">
+ ----------------------------------------------------------------------------------------------------
+ <summary>
+ Keeps track of the last <see cref="P:SmartBotKit.Plugins.AdvancedAutoConcede.AdvancedAutoConcedePluginData.AlwaysConcede"/> value.
+ </summary>
+ ----------------------------------------------------------------------------------------------------
+</member>
+<member name="F:SmartBotKit.Plugins.AdvancedAutoConcede.AdvancedAutoConcedePlugin.lastEnabled">
+ ----------------------------------------------------------------------------------------------------
+ <summary>
+ Keeps track of the last <see cref="P:SmartBot.Plugins.PluginDataContainer.Enabled"/> value.
+ </summary>
+ ----------------------------------------------------------------------------------------------------
+</member>
+<member name="F:SmartBotKit.Plugins.AdvancedAutoConcede.AdvancedAutoConcedePlugin.rankedWinsCount">
+ ----------------------------------------------------------------------------------------------------
+ <summary>
+ Keeps track of the current wins in ranked mode.
+ </summary>
+ ----------------------------------------------------------------------------------------------------
+ <seealso cref="P:SmartBotKit.Plugins.AdvancedAutoConcede.AdvancedAutoConcedePluginData.MaxRankedWins"/>
+ ----------------------------------------------------------------------------------------------------
+</member>
+<member name="F:SmartBotKit.Plugins.AdvancedAutoConcede.AdvancedAutoConcedePlugin.unrankedWinsCount">
+ ----------------------------------------------------------------------------------------------------
+ <summary>
+ Keeps track of the current wins in unranked mode.
+ </summary>
+ ----------------------------------------------------------------------------------------------------
+ <seealso cref="P:SmartBotKit.Plugins.AdvancedAutoConcede.AdvancedAutoConcedePluginData.MaxUnrankedWins"/>
+ ----------------------------------------------------------------------------------------------------
+</member>
+<member name="F:SmartBotKit.Plugins.AdvancedAutoConcede.AdvancedAutoConcedePlugin.concedesCount">
+ ----------------------------------------------------------------------------------------------------
+ <summary>
+ Keeps track of the consecutive auto-concedes.
+ </summary>
+ ----------------------------------------------------------------------------------------------------
+ <seealso cref="P:SmartBotKit.Plugins.AdvancedAutoConcede.AdvancedAutoConcedePluginData.MaxRankedConcedes"/>
+ <seealso cref="P:SmartBotKit.Plugins.AdvancedAutoConcede.AdvancedAutoConcedePluginData.MaxUnrankedConcedes"/>
+ ----------------------------------------------------------------------------------------------------
+</member>
+<member name="F:SmartBotKit.Plugins.AdvancedAutoConcede.AdvancedAutoConcedePlugin.currentMode">
+ ----------------------------------------------------------------------------------------------------
+ <summary>
+ Keeps track of the current bot mode.
+ </summary>
+ ----------------------------------------------------------------------------------------------------
+</member>
+<member name="F:SmartBotKit.Plugins.AdvancedAutoConcede.AdvancedAutoConcedePlugin.isMatchAutoConceded">
+ ----------------------------------------------------------------------------------------------------
+ <summary>
+ A flag to help determine whether the current match is auto-conceded by the plugin.
+ </summary>
+ ----------------------------------------------------------------------------------------------------
+</member>
+<member name="M:SmartBotKit.Plugins.AdvancedAutoConcede.AdvancedAutoConcedePlugin.#ctor">
+ ----------------------------------------------------------------------------------------------------
+ <summary>
+ Initializes a new instance of the <see cref="T:SmartBotKit.Plugins.AdvancedAutoConcede.AdvancedAutoConcedePlugin"/> class.
+ </summary>
+ ----------------------------------------------------------------------------------------------------
+</member>
+<member name="M:SmartBotKit.Plugins.AdvancedAutoConcede.AdvancedAutoConcedePlugin.OnPluginCreated">
+ ----------------------------------------------------------------------------------------------------
+ <summary>
+ Called when this <see cref="T:SmartBotKit.Plugins.AdvancedAutoConcede.AdvancedAutoConcedePlugin"/> is created by the SmartBot plugin manager.
+ </summary>
+ ----------------------------------------------------------------------------------------------------
+</member>
+<member name="M:SmartBotKit.Plugins.AdvancedAutoConcede.AdvancedAutoConcedePlugin.OnDataContainerUpdated">
+ ----------------------------------------------------------------------------------------------------
+ <summary>
+ Called when the properties of <see cref="T:SmartBotKit.Plugins.AdvancedAutoConcede.AdvancedAutoConcedePluginData"/> are updated.
+ </summary>
+ ----------------------------------------------------------------------------------------------------
+</member>
+<member name="M:SmartBotKit.Plugins.AdvancedAutoConcede.AdvancedAutoConcedePlugin.OnStarted">
+ ----------------------------------------------------------------------------------------------------
+ <summary>
+ Called when the bot is started.
+ </summary>
+ ----------------------------------------------------------------------------------------------------
+</member>
+<member name="M:SmartBotKit.Plugins.AdvancedAutoConcede.AdvancedAutoConcedePlugin.OnStopped">
+ ----------------------------------------------------------------------------------------------------
+ <summary>
+ Called when the bot is stopped.
+ </summary>
+ ----------------------------------------------------------------------------------------------------
+</member>
+<member name="M:SmartBotKit.Plugins.AdvancedAutoConcede.AdvancedAutoConcedePlugin.OnGameBegin">
+ ----------------------------------------------------------------------------------------------------
+ <summary>
+ Called when a game begins.
+ </summary>
+ ----------------------------------------------------------------------------------------------------
+</member>
+<member name="M:SmartBotKit.Plugins.AdvancedAutoConcede.AdvancedAutoConcedePlugin.OnDefeat">
+ ----------------------------------------------------------------------------------------------------
+ <summary>
+ Called when our hero is defeated by the opponent.
+ </summary>
+ ----------------------------------------------------------------------------------------------------
+</member>
+<member name="M:SmartBotKit.Plugins.AdvancedAutoConcede.AdvancedAutoConcedePlugin.OnVictory">
+ ----------------------------------------------------------------------------------------------------
+ <summary>
+ Called when our hero wins the opponent.
+ </summary>
+ ----------------------------------------------------------------------------------------------------
+</member>
+<member name="M:SmartBotKit.Plugins.AdvancedAutoConcede.AdvancedAutoConcedePlugin.OnConcede">
+ ----------------------------------------------------------------------------------------------------
+ <summary>
+ Called when a game is conceded by our hero.
+ </summary>
+ ----------------------------------------------------------------------------------------------------
+</member>
+<member name="M:SmartBotKit.Plugins.AdvancedAutoConcede.AdvancedAutoConcedePlugin.Dispose">
+ ----------------------------------------------------------------------------------------------------
+ <summary>
+ Releases all the Global.System.Resources.used by this <see cref="T:SmartBotKit.Plugins.AdvancedAutoConcede.AdvancedAutoConcedePlugin"/> instance.
+ </summary>
+ ----------------------------------------------------------------------------------------------------
+</member>
+</members>
+</doc>
